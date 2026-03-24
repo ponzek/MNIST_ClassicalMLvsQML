@@ -9,7 +9,7 @@ A capstone project for **The Coding School — Qubit x Qubit** program, continue
 
 ## 🔬 Key Finding
 
-While QSVM accuracy remained stable at **99%** in PennyLane and Cirq implementations, the *classical SVM baseline* accuracy varied dramatically (**71.5% → 88.0% → 99.0%**) depending solely on framework integration overhead. Training time similarly spanned three orders of magnitude (**3.33s → 50.27s → 1057.90s**).
+While SVM accuracy remained stable at **99%**. In PennyLane and Cirq implementations, accuracy varied dramatically (**45.0% → 71.5% → 88.0%**) depending solely on framework integration overhead. Training time similarly spanned three orders of magnitude (**3.33s → 50.27s → 1057.90s**).
 
 > 💡 **Novelty**: First empirical demonstration that framework-specific implementation details—not quantum advantage alone—drive performance variations in QSVM benchmarking. Most prior work evaluates QSVMs within *single* frameworks; we benchmark *identical* models across three.
 
