@@ -17,10 +17,10 @@ While QSVM accuracy remained stable at **99%** in PennyLane and Cirq implementat
 
 | Framework          | Model         | Accuracy (%) | Time (s) | Key Insight                          |
 |--------------------|---------------|--------------|----------|--------------------------------------|
-| **PennyLane** (NumPy) | QSVM          | 99.0         | 0.00     | Fastest simulation; lightweight wrapper |
-|                    | Classical SVM | 71.5         | 3.33     | Baseline impacted by minimal overhead |
-| **Cirq** (TFQ)     | QSVM          | 99.0         | 0.02     | Balanced performance                 |
-|                    | Classical SVM | 88.0         | 50.27    | Moderate integration overhead        |
+| **PennyLane** (NumPy) | QSVM          | 71.5         | 0.00     | Fastest simulation; lightweight wrapper |
+|                    | Classical SVM | 99.0         | 3.33     | Baseline impacted by minimal overhead |
+| **Cirq** (TFQ)     | QSVM          | 88.0         | 0.02     | Balanced performance                 |
+|                    | Classical SVM | 99.0         | 50.27    | Moderate integration overhead        |
 | **Qiskit** (Aer)   | QSVM          | 45.0         | 0.00     | ComputeUncompute bottleneck          |
 |                    | Classical SVM | 99.0         | 1057.90  | Full circuit simulation overhead     |
 
